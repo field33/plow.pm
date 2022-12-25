@@ -1,5 +1,24 @@
 {
-  "index": "Introduction",
+  "index": {
+    "type": "page",
+    "display": "hidden",
+    "theme": {
+      "layout": "raw"
+    }
+  },
+  "registry_link": {
+    "type": "page",
+    "title": "Package registry",
+    "href": "https://registry.field33.com"
+  },
+  "docs_link": {
+    "type": "page",
+    "title": "Documentation",
+    "href": "/introduction"
+  },
+  "introduction": {
+    "title": "Introduction"
+  },
   "another": "Another Page",
   "advanced": "Advanced (A Folder)"
 }
