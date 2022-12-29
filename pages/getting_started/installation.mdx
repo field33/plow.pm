@@ -1,0 +1,42 @@
+# Plow CLI setup
+
+<div className="steps-container">
+
+### Installing Rust toolchain
+
+To install the Plow CLI, currently an installation of a recent version of the [Rust language toolchain](https://doc.rust-lang.org/cargo/getting-started/installation.html)
+is required.
+
+import { Callout } from 'nextra-theme-docs'
+
+<Callout type="info" emoji="🚧️">
+  To provide an easier setup process that doesn't require installing the Rust toolchain, we are [working on providing pre-built binaries of the CLI](https://github.com/field33/plow/issues/1).
+</Callout>
+
+### Installing the Plow CLI binary
+
+To install the Plow CLI via cargo, you can run in a terminal:
+```sh copy filename="Shell"
+cargo install plow_cli
+```
+
+After the installation is finished, you can verify that the binary is available via:
+
+```sh copy filename="Shell"
+plow --help
+```
+
+### Login to public registry
+
+In order to take certain actions with the Plow CLI (e.g. publishing a package)
+or to have access to private packages that have been shared with your Plow registry
+account, you have to authenticate your installation of the CLI.
+
+- Log in (or create an account) under [registry.field33.com](https://registry.field33.com)
+- In your account settings create a new User Token, and copy it to your clipboard
+- In a terminal run (substituting `[USER_TOKEN]` with the token from your clipboard):
+  ```sh copy filename="Shell"
+  plow login [USER_TOKEN]
+  ```
+
+</div>

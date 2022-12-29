@@ -1,11 +1,22 @@
 # Introduction
  
-Welcome to Nextra! This is a basic docs template. You can use it as a starting point for your own project :)
+Plow is a package manager for ontologies, bringing established practices from software engineering
+into the world of ontology engineering. It similar to programming language package manager such as
+[npm](https://docs.npmjs.com/about-npm) and [cargo](https://doc.rust-lang.org/cargo/).
 
-## What is Nextra?
+*Plow* consists of a few distinct core components:
 
-A **simple**, **powerful** and **flexible** site generation framework with everything you love from Next.js.
+- the official registry
+- the website for the official registry
+- the Command Line Interface (CLI)
 
-## Documentation
+The official registry is a database of packages (called *fields* in Plow) that is controlled via a
+JSON API. It allows anyone to publish packages for public or private consumption for any knowledge
+domain.
 
-The documentation is available at [https://nextra.site](https://nextra.site).
+The [registry website](https://registry.field33.com/) allows for discovery of packages via search,
+categories and keywords. It also provides an overview of relevant metadata (ontology project website,
+license, dependencies, etc.) for all versions of all packages.
+
+The CLI allows for interacting with the registry from the terminal. It allows for e.g. publishing new
+fields, resolving dependencies of an ontology project and/or opening an ontology with dependencies in Protege.
