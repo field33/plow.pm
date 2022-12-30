@@ -1,9 +1,10 @@
 import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
 import {Footer} from "@components/Footer";
+import {PlowLogo} from "@components/PlowLogo";
 
 const config: DocsThemeConfig = {
-  logo: <span>Plow</span>,
+  logo: <span className="flex items-center gap-2"><PlowLogo small primary/>Plow</span>,
   logoLink: true,
   project: {
     link: 'https://github.com/field33/plow',
