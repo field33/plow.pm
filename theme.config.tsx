@@ -2,6 +2,7 @@ import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
 import {Footer} from "@components/Footer";
 import {PlowLogo} from "@components/PlowLogo";
+import {MatrixIcon} from "@components/MatrixIcon";
 
 const config: DocsThemeConfig = {
   logo: <span className="flex items-center gap-2"><PlowLogo small primary/>Plow</span>,
@@ -11,6 +12,7 @@ const config: DocsThemeConfig = {
   },
   chat: {
     link: 'https://matrix.to/#/#plow_pm:matrix.org',
+    icon: MatrixIcon,
   },
   docsRepositoryBase: 'https://github.com/field33/plow.pm/blob/main',
   footer: {
