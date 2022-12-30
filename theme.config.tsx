@@ -1,5 +1,6 @@
 import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
+import {Footer} from "@components/Footer";
 
 const config: DocsThemeConfig = {
   logo: <span>Plow</span>,
@@ -12,7 +13,7 @@ const config: DocsThemeConfig = {
   },
   docsRepositoryBase: 'https://github.com/field33/plow.pm',
   footer: {
-    text: 'Nextra Docs Template',
+    component: Footer,
   },
 }
 
