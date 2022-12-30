@@ -12,7 +12,7 @@ const config: DocsThemeConfig = {
   chat: {
     link: 'https://matrix.to/#/#plow_pm:matrix.org',
   },
-  docsRepositoryBase: 'https://github.com/field33/plow.pm',
+  docsRepositoryBase: 'https://github.com/field33/plow.pm/blob/main',
   footer: {
     component: Footer,
   },
