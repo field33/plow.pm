@@ -3,7 +3,7 @@ import Link from "next/link";
 const PLOW_REGISTRY_HREF = "https://registry.field33.com"
 
 export default () => (
-    <div className="flex flex-row max-w-[60rem] mx-auto mb-[40vh] px-6 py-10">
+    <div className="flex flex-row max-w-[60rem] mx-auto px-6 py-10">
       <div className="w-3/5">
         <div className="text-8xl font-black">Plow</div>
         <div className="text-lg max-w-[30rem] pt-2">A package manager for ontologies empowering<br/> anyone to build reliable solutions with ontologies.</div>
