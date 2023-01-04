@@ -5,6 +5,11 @@ import {PlowLogo} from "@components/PlowLogo";
 import {MatrixIcon} from "@components/MatrixIcon";
 
 const config: DocsThemeConfig = {
+  useNextSeoProps() {
+    return {
+      titleTemplate: '%s – Plow'
+    }
+  },
   logo: <span className="flex items-center gap-2"><PlowLogo small primary/>Plow</span>,
   logoLink: true,
   project: {
