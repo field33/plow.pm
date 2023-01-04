@@ -1,22 +1,22 @@
-# Nextra Docs Template 
+# Plow.pm website
 
-This is a template for creating documentation with [Nextra](https://nextra.site).
+This repository contains the source for the website at <https://plow.pm>.
 
-[**Live Demo →**](https://nextra-docs-template.vercel.app)
+If you are looking for the source for the Plow libraries and tools, [this repository might be more relevant](https://github.com/field33/plow).
 
-[![](.github/screenshot.png)](https://nextra-docs-template.vercel.app)
+## General
 
-## Quick Start
-
-Click the button to clone this repository and deploy it on Vercel:
-
-[![](https://vercel.com/button)](https://vercel.com/new/clone?s=https%3A%2F%2Fgithub.com%2Fshuding%2Fnextra-docs-template&showOptionalTeamCreation=false)
+The website is deployed to Github Pages for hosting.
 
 ## Local Development
 
 First, run `pnpm i` to install the dependencies.
 
 Then, run `pnpm dev` to start the development server and visit localhost:3000.
+
+## Thanks & acknowledgment
+
+This page is built on top of Next.js and the excellent [Nextra](https://nextra.site) documentation system.
 
 ## License
 
